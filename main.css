@@ -1,14 +1,14 @@
 body {
   margin: 60px auto;
   width: 70%;
-  background: #b7ae81;
+  background: #b0b990;
 }
 nav ul, footer ul {
   font-family:'Helvetica', 'Arial', 'Sans-Serif';
   padding: 0px;
   list-style: none;
   font-weight: bold;
-  color: #242424
+  color: #393939;
 }
 nav ul li, footer ul li {
   display: inline;
