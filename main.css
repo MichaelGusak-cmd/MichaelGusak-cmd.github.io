@@ -30,20 +30,25 @@ figcaption {
 }
 
 .grid-item:hover {
-  background-color: #992828;
+  background-color: #333333;
   color: #ff00ff;
 }
 
 .center {
   margin: auto;
-  width: 60%;
-  border: 3px solid #000000;
+  width: 90%;
+  border: 2px solid #000000;
   padding: 10px;
 }
 
 body {
-  background: #92be79;
+  background: #8fccb6;
 }
+
+main_body {
+    background: #a7f2d8;
+}
+
 nav ul,
 footer ul {
   font-family: "Helvetica", "Arial", "Sans-Serif";
