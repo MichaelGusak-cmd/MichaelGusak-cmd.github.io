@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Layers Blog</title>
+        <link rel="stylesheet" type="text/css" href="/main.css" />
+    </head>
+    <body class="center">
+        <nav>
+            <ul>
+                <li><a href="/">Home</a></li>
+                <li><a href="/LayersBlog.html">Layers Blog</a></li>
+                <!--<li><a href="/resume.html">Resume</a></li>-->
+            </ul>
+        </nav>
+        <div class="container">
+            <div class="main_body">
+                <h1>
+                    The Beginning:
+                </h1>
+                <p1>
+                    To start off, this entire project was based off the idea: "lets make something in sdl", what could possibly go wrong?
+                    <br><br> so so much
+                    <br><br> The first problem was getting it to work, the one thing that makes me want to stop programming and change careers to beekeeping are linker and version incompatibility errors. Trying to follow the SDL's tutorial led to more headaches than progress, but it finally got working once I found "Lazy Foo' Productions"s excellent, detailed setup instructions.
+                    <a href="https://lazyfoo.net/tutorials/SDL/01_hello_SDL/windows/index.php">(Link)</a> 
+                </p1>
+                <p1>
+                    <br><br> Welp, thats about it for all the problems, now its just a matter of learning the SDL API and messing around with it to see what it can do, so here's what I found:
+                    <br><br> Its super basic, and is really similar to the java-based "Processing" framework that I've used before in undergrad graphics and when tutoring first years.
+                    <br> A general code structure could look like this: 
+                </p1>
+                <ul>
+                    <li>init(): creates the window and other initilization parameters</li>
+                    <li>keyHandler(): some form of handling key input</li>
+                    <li>update(): a pure logic function for updating values per frame</li>
+                    <li>draw(): a function that draws something onscreen </li>
+                    <li>main(): that uses all the above functions that you can ignore after setting up</li>
+                </ul>
+                <p1>
+                    This general structure is robust, consistent, and most importantly can be broken up into more and more chunks that show the power of OOP in action.
+                </p1>
+                <h3>Lets talk game dev:</h3>
+                <p2>
+                    Layers? Like onions and ogres? Yep, those. 
+                    <br><br>Imagine you're playing mario 1-1, and as you're running to the right you can see 2-1 and 3-1 scrolling with you in the background. Now imagine you press a button (idk, press "E") and suddenly the "Layer" of 1-1 moves into the foreground and you start playing on 2-1, press E again and you're on 3-1. I feel like this type of world exploration would lend really well to a metroidvania or a puzzler, it could also be flipped on its head and the progression would be to go through the layers, the potential!
+                    <br><br> Or someone else already made a game with a similar theme but i don't know of any so I'm gonna pretend that I'm the first to come up with this idea.
+                </p2>
+                <h3>Planning:</h3>
+                <p3>
+                    So what do we need to plan to get a functioning, playable game? I like to make a ladder of "things to complete" (basically a reverse todo list):
+                </p3>
+                <ul>
+                    <li>(Goal) The game works! And its fun to play!</li>
+                    <li>Collections of levels and navigation</li>
+                    <li>Levels</li>
+                    <ul>
+                        <li>Build interesting levels</li>
+                        <li>Implement a level editor</li>
+                        <li>Level object sprites</li>
+                        <li>Interactive level objects/mechanics</li>
+                    </ul>
+                    <li>Player/s</li>
+                    <ul>
+                        <li>Player-World interactions</li>
+                        <li>Player sprites</li>
+                        <li>Player movement</li>
+                    </ul>
+                </ul>
+            </div>
+        </div>
+    </body>
+</html>
