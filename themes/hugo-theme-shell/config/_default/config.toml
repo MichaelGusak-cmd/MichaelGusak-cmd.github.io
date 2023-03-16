@@ -74,9 +74,9 @@ ignoreErrors = ["error-remote-getjson"]
   # Note: ["ACTIVITY", "URL or PATH TO YOUR MARKDOWN FILE"]
   files = [ 
     ["resume.txt", "/resume.md"],
-    ["work_experience.c", "/post/work_exp.md"],
-    ["games.exe", "/post/games.md"],
-    ["projects.md", "/post/projects.md"],
+    ["work_experience.c", "/work_exp.md"],
+    ["games.exe", "/games.md"],
+    ["projects.md", "/projects.md"],
   ]
 
 [module]
