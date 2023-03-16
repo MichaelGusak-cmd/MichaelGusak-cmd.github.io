@@ -1,3 +1,9 @@
+---
+title: Resume
+description: this page is Mike Gusak's resume.
+---
+
+
 # Mike Gusak
 Winnipeg, Manitoba\
 mike.gusak@gmail.com
