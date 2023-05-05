@@ -76,7 +76,7 @@ ignoreErrors = ["error-remote-getjson"]
     ["resume.txt", "/resume.md"],
     ["work_experience.c", "/work_exp.md"],
     ["games.exe", "/games.md"],
-    ["projects.md", "/projects.md"],
+    #["projects.md", "/projects.md"],
   ]
 
 [module]
